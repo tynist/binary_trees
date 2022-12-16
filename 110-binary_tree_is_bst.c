@@ -6,7 +6,6 @@
  * @tree: A pointer to the root node of the tree to check.
  * @lo: The value of the smallest node visited thus far.
  * @hi: The value of the largest node visited this far.
- *
  * Return: If the tree is a valid BST, 1, otherwise, 0.
  */
 int is_bst_helper(const binary_tree_t *tree, int lo, int hi)
